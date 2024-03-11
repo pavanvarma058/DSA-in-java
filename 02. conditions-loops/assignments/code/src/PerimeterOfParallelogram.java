@@ -10,6 +10,6 @@ public class PerimeterOfParallelogram {
         System.out.print("Enter the breadth of the Parallelogram: ");
         double b = in.nextDouble();
         double p = 2 * (h + b);
-        System.out.println("Perimeter of Parallelogram: " + p);git
+        System.out.println("Perimeter of Parallelogram: " + p);
     }
 }

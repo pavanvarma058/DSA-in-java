@@ -1,4 +1,5 @@
 public class FirstAndLastPosition {
+    // Leetcode question no : 34
     public static void main(String[] args) {
 
     }
@@ -10,7 +11,7 @@ public class FirstAndLastPosition {
 
         nums[0] = search(nums, target, true);
         if(nums[0] != -1){
-            nums[1] = search(nums, target, false);    
+            nums[1] = search(nums, target, false);
         }
 //        ans[0] = start;
 //        ans[1] = end;

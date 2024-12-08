@@ -2,7 +2,7 @@
 public class SmallerThanCurrentNum {
     // https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
     public static void main(String[] args) {
-        
+
     }
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] arr = new int[nums.length];

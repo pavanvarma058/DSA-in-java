@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/02. conditions-loops.iml" filepath="$PROJECT_DIR$/.idea/02. conditions-loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/Intermediate/Intermediate.iml" filepath="$PROJECT_DIR$/assignments/Intermediate/Intermediate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/code/code.iml" filepath="$PROJECT_DIR$/assignments/code/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/code1.iml" filepath="$PROJECT_DIR$/code/code1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switch/switch.iml" filepath="$PROJECT_DIR$/switch/switch.iml" />
+    </modules>
+  </component>
+</project>

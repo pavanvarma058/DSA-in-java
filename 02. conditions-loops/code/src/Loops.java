@@ -15,7 +15,7 @@ public class Loops {
 //        }
 
         // Print numbers from 1 to n
-//        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 //        System.out.print("Enter a number: ");
 //        int n = in.nextInt();
 //
@@ -44,10 +44,20 @@ public class Loops {
 
         } while(condition);
         */
-        int n = 1;
-        do {
-            System.out.println(n);
-            n++;
-        }while (n <= 5);
+//        int n = 1;
+//        do {
+//            System.out.println(n);
+//            n++;
+//        }while (n <= 5);
+
+        while(true){
+            int n = in.nextInt();
+            if(n == 0){
+                break;
+            }else {
+                System.out.println("Hi how are you?");
+            }
+        }
+
     }
 }

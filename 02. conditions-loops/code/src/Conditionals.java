@@ -16,7 +16,7 @@ public class Conditionals {
 //            salary += 1000;
 //        }
 
-        // Multiple loops
+        // Multiple if-else
         if(salary > 10000){
             salary += 2000;
         } else if(salary > 20000){

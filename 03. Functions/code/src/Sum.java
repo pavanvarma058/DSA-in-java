@@ -8,6 +8,7 @@ public class Sum {
         int ans = sum3(40, 80);
         System.out.println(ans);
     }
+    // In Java there is no pass by reference, there will be only pass by value
 
     // pass the value of numbers when you are calling the method in main()
     static int sum3(int a, int b){

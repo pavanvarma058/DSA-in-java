@@ -10,12 +10,14 @@ public class Questions {
 //        System.out.println(isArmStrong(n));
         for (int i = 100; i < 1000; i++) {
             if(isArmStrong(i)){
-                System.out.print(i + " ");
+                System.out.print(i + " is Armstrong number");
+                System.out.println();
             }
         }
     }
 
     // print all the 3 digit armstrong numbers
+    // Cube of individual digits and sum that numbers which will give the same result as the given number then the number is said to be Armstrong number.
     static boolean isArmStrong(int n){
         int original = n;
         int sum = 0;

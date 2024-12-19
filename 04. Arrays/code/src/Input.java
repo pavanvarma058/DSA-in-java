@@ -39,6 +39,8 @@ public class Input {
 
         str[1] = "pavan";
 
+        str[3] = "Hello";
+
         System.out.println(Arrays.toString(str));
 
     }

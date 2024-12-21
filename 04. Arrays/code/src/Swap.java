@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Swap {
     public static void main(String[] args) {
-        int[] arr = {1, 5, 11, 9, 18};
+        int[] arr = {1, 5, 11, 9, 18, 23, 36};
 //        swap(arr, 0, 4);
 
         reverse(arr);

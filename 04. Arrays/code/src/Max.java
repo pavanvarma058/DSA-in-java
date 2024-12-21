@@ -3,7 +3,9 @@ import java.sql.Array;
 public class Max {
     public static void main(String[] args) {
         int[] arr = {1, 5, 11, 79, 18};
-        System.out.println(max(arr));
+        int start = 1;
+        int end = 3;
+        System.out.println(maxRange(arr, start, end));
     }
 
     // imagine that array is not empty
@@ -24,7 +26,7 @@ public class Max {
 
     // work on edge cases here, like arr being null
     static int maxRange(int[] arr, int start, int end) {
-        if(end > start) {
+        if(end < start) {
             return -1;
         }
 
@@ -32,8 +34,8 @@ public class Max {
             return -1;
         }
 //        int maxVal = Integer.MIN_VALUE; // if array is empty use this.
-        int maxVal = start;
-        for (int i = start; i < end; i++) {
+        int maxVal = arr[start];
+        for (int i = start; i <= end; i++) {
             if(arr[i] > maxVal){
                 maxVal = arr[i];
             }

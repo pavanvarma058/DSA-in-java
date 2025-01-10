@@ -59,4 +59,7 @@ public class Main {
         // hence the target not found
         return -1;
     }
+
+    // Best Case : O(1) if the target is found on very first element of the given array
+    // Worst Case : O(n) You do not find the target item, iterate to very last item but everytime it says i cannot find it..!
 }
